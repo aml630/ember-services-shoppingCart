@@ -7,5 +7,13 @@
 <p class = "cost">{{model.cost}}</p>
 </div>
 
-{{new-feedback saveFeedback="saveFeedback"}}
-{{feedback-list}}
+{{new-feedback product=model saveFeedback="saveFeedback"}}
+{{#each model.feedbacks as |feedback|}}
+<div class = "comment">
+<p>Comment:  {{feedback.message}}</p>
+<p>Author:  {{feedback.name}}</p>
+<hr />
+</div>
+
+<!-- <button {{action 'deleteAnswer' answer}}>Delete</button> -->
+{{/each}}

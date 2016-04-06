@@ -14,7 +14,7 @@ export default Ember.Service.extend({
       total = total + this.get('items')[i]._internalModel._data.cost
     }
     // console.log(this.get('items')[i].cost);
-    // console.log(total);
+    console.log(total);
     return total;
   }
 });

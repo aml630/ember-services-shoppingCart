@@ -1,8 +1,9 @@
+<div class="comment">
 <h1>Feedback</h1>
-<form class="" action="index.html" method="post">
-  <label for="feedback">Leave some feedback</label>
-  {{input value = message id = 'message' placeholder = "Your Comment Here"}}
-  {{input value = name id = 'name' placeholder = "Your Name"}}
+<form>
+  {{input value=message id='message' placeholder="Your Comment Here"}}
+  {{input value=name id='name' placeholder="Your Name"}}
 
   <button {{action 'saveFeedback'}} class = "btn btn-info">Post!</button>
 </form>
+</div>
