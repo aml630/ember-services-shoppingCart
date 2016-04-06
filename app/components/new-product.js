@@ -8,6 +8,7 @@ export default Ember.Component.extend({
         image: this.get('image'),
         description: this.get('description'),
         cost: parseInt(this.get('cost')),
+        // feedbacks: this.get('feedback'),
       };
       this.sendAction('addProduct', params);
     }

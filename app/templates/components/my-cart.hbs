@@ -4,8 +4,9 @@
 
 {{#each shoppingCart.items as |item|}}
   <li>{{item.title}} -- {{item.cost}}</li>
+  <!-- {{totalCost}} -->
+  <!-- Total Cost: {{totalCartCost}} -->
 
-  {{totalCost}}
   {{/each}}
-{{totalCost}}
+Total Cost: {{totalCartCost}}
 </div>
