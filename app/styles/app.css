@@ -1,0 +1,23 @@
+.singleProduct {
+  float: left;
+  display: inline-block;
+  border: 1px solid black;
+  height: auto;
+  width: 200px;
+  margin: 10px;
+  box-shadow: 10px 10px 5px #888888;
+}
+
+.singleProduct img{
+  height: 100px;
+  width: 100px;
+}
+
+.cost {
+  font-size: 50px;
+  color: green;
+}
+
+.cart {
+  float: right;
+}

@@ -1,0 +1,11 @@
+<div class = "cart">
+
+<h2>My Cart</h2>
+
+{{#each shoppingCart.items as |item|}}
+  <li>{{item.title}} -- {{item.cost}}</li>
+
+  {{totalCost}}
+  {{/each}}
+{{totalCost}}
+</div>
