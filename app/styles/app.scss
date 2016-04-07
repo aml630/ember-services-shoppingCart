@@ -1,9 +1,15 @@
 @import 'materialize';
 @import 'ember-cli-materialize';
 
-.card-panel {
-  border-radius: 50px;
+.nav-wrapper {
+  background-image: url("http://www.northeastern.edu/digital-news-files/purnimaWhale/water_bkg.gif") !important;
+  background-repeat: no-repeat !important;
+  background-size: 3250px 500px !important;
 }
+
+// .card-panel {
+//   border-radius: 50px;
+// }
 
 .card-title {
   font-weight: bold !important;
@@ -23,7 +29,7 @@
 }
 
 .card{
-  border-radius: 225px;
+  // border-radius: 225px;
   margin: 2em;
 }
 
@@ -44,5 +50,27 @@
 }
 
 .cart {
-  float: right;
+  text-align: center;
+  border: 1px solid black;
+}
+
+.cart h2 {
+  color: #00B2B2;
+  padding-left: 17%;
+}
+
+.cart li {
+  border-bottom: #00B2B2;
+  font-size: 20px;
+}
+
+.projectPadding {
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-top: 20px;
+}
+
+.brand-logo {
+  // padding-left: 30px;
+  margin-left: 30px;
 }

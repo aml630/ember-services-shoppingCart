@@ -1,13 +1,9 @@
 <div class = "cart">
 
 <h2>My Cart</h2>
-
 {{#each shoppingCart.items as |item|}}
   <li>{{item.title}} -- {{item.cost}}</li>
-  <!-- {{totalCost}} -->
-  <!-- Total Cost: {{totalCartCost}} -->
+{{/each}}
 
-  {{/each}}
-Total Cost: {{totalCartCost}}
-<!-- Total Cost From Service:  {{shoppingCart.totalCost}} -->
+<h3>Total Cost: {{totalCartCost}}</h3>
 </div>
