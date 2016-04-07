@@ -1,7 +1,8 @@
 {{new-product addProduct="addProduct"}}
 
 {{my-cart}}
-
-{{#each model as |product|}}
+<div class="cont-stuff">
+  {{#each model as |product|}}
   {{product-tile product = product delete="delete"}}
-{{/each}}
+  {{/each}}
+</div>

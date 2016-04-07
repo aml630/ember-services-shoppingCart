@@ -24,7 +24,7 @@ export default Ember.Component.extend({
       //     // total = total + this.get('items')[i].cost;
       // }
       this.get('shoppingCart').add(item);
-      this.get('shoppingCart').totalCost();
+      // this.get('shoppingCart').totalCost();
     },
 
     delete(item) {

@@ -1,16 +1,17 @@
 import Ember from 'ember';
 
-export default Ember.Component.extend({
+export default Ember.Route.extend({
   shoppingCart: Ember.inject.service(),
 
-  totalCartCost: Ember.computed('shoppingCart.items.length',function () {
+  CartCost: Ember.computed('shoppingCart.items.length',function () {
+    console.log("application navbar ");
     var total = 0;
     var shoppingCart = this.get('shoppingCart');
     for(var i = 0; i<this.get('shoppingCart').items.length;i++){
         total = total + this.get('shoppingCart').items[i]._internalModel._data.cost;
     }
-    // console.log(total);
     return total;
 
   })
+
 });
