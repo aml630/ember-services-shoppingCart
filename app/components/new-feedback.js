@@ -8,7 +8,7 @@ export default Ember.Component.extend({
         name: this.get('name'),
         product: this.get('product')
       };
-      this.sendAction('saveFeedback', params)
+      this.sendAction('saveFeedback', params);
       console.log(params);
     }
   }
