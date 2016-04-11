@@ -1,7 +1,6 @@
 # Shopping-cart
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+This shopping cart application utilizes ember helpers and services to create an experience like a user would have at any other ecommerce website that they're used to.  
 
 ## Prerequisites
 
